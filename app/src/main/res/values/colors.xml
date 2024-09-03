@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="man_background_color">#ADD8E6</color>
+    <color name="woman_background_color">#FFB6C1</color>
+    <color name="unknown_background_color">#787474</color>
+    <color name="my_light_primary">#ADD8E6</color>
+    <color name="dui">#32CD32</color>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.UpdateActivity"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/edit_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="@string/revise"
+        android:titleTextColor="#6A6A6A"
+        app:navigationIcon="@drawable/back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_toolbar"
+        android:orientation="vertical">
+
+        <!--姓名-->
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/search_edit_bg"
+            android:layout_marginBottom="40dp"
+            android:autofillHints=""
+            android:hint="@string/name"
+            android:inputType="text"
+            android:padding="9dp"
+            android:paddingTop="40dp" />
+        <!--电话-->
+        <EditText
+            android:id="@+id/edit_phone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="40dp"
+            android:autofillHints=""
+            android:background="@drawable/search_edit_bg"
+            android:hint="@string/phone"
+            android:inputType="text"
+            android:padding="9dp"
+            tools:ignore="TextFields" />
+        <!--性别-->
+        <RadioGroup
+            android:id="@+id/edit_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_male"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/man" />
+
+            <RadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/woman" />
+        </RadioGroup>
+        <!--备注-->
+        <EditText
+            android:id="@+id/edit_remark"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="40dp"
+            android:autofillHints=""
+            android:hint="@string/remake"
+            android:background="@drawable/search_edit_bg"
+            android:inputType="text"
+            android:padding="9dp" />
+        <!--保存修改-->
+        <Button
+            android:id="@+id/edit_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/update" />
+
+    </LinearLayout>
+</RelativeLayout>

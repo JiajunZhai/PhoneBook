@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">通讯录</string>
+    <string name="mine">个人中心</string>
+    <string name="search_for_prompts">搜索姓名或电话号码</string>
+    <string name="tag_test_text">A</string>
+    <string name="test_text">张三</string>
+    <string name="avatar">头像</string>
+    <string name="test_phone">1145141919580</string>
+    <string name="test_gender_text">男</string>
+    <string name="test_remake_text">Unity高级开发工程师</string>
+    <string name="back_button_text">返回</string>
+    <string name="delete_button_text">删除</string>
+    <string name="modification_button_text">修改</string>
+    <string name="massage">短信</string>
+    <string name="phone">电话</string>
+    <string name="name">姓名</string>
+    <string name="remake">备注</string>
+    <string name="gender">性别</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="update">保存修改</string>
+    <string name="adder">添加</string>
+    <string name="revise">修改</string>
+    <string name="add">添加按钮</string>
+    <string name="search">搜索</string>
+    <string name="q">请输入用户名</string>
+    <string name="re">注册</string>
+    <string name="title">欢迎回来通讯录</string>
+    <string name="a">登录</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
